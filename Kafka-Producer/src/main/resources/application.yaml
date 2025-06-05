@@ -3,7 +3,7 @@ server:
 
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/employees
+    url: jdbc:mysql://localhost:3306/kafka_test
     username: root
     password: root
   jpa:

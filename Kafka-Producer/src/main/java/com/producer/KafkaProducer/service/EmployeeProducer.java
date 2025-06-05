@@ -27,7 +27,6 @@ public class EmployeeProducer {
     }
 
     public void publishBatch() {
-        System.out.println("producing niggas");
         if (isPublishing.get()) return;
 
         List<Employees> employees = employeeRepository.findTop10ById();
